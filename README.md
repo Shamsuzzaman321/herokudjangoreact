@@ -1,7 +1,3 @@
-# Django+React Deployed To Heroku
-This project is based on [here](https://github.com/zachtylr21/django-react-starter) which I used to modify and add the ability to apply CSS, use Bootstrap, view images along with text to the React app portion of this Django project.
-
-The major achievement of this app is successful deployment of a Django+React project to Heroku. It is currently live on [Heroku](https://cm-react-test6.herokuapp.com/), which was accomplished using a [webpack](https://webpack.js.org/).
 
 ## Prerequisites
 Must have [Django v3.1.1](https://docs.djangoproject.com/en/3.1/topics/install/) and [Node.js v12.19.0](https://nodejs.org/en/) installed, preferably in a virtual environment(virtualENV or pipENV)
@@ -35,9 +31,3 @@ $ heroku buildpacks:add --index 2 heroku/python
 Alternatively, you can find your app's build packs under the Settings option within your app's console on `heroku.com` and add the necessary build packs there.
 
 ***If nothing shows on Heroku a possible error could be static collection. More [here](https://devcenter.heroku.com/articles/django-assets)
-
-### Screenshot (From Heroku)
-![](demo.png)
-
-## Resources Used
-* [How to Serve a React Single-Page App with Django](https://dev.to/zachtylr21/how-to-serve-a-react-single-page-app-with-django-1a1l)
